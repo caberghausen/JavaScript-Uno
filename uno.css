@@ -1,0 +1,151 @@
+.logout{
+    display: none;
+}
+
+.login{
+    display: block;
+}
+
+.signup{
+    display: block;
+}
+
+.newgame{
+    display: none;
+}
+.hidden{
+    display: none;
+}
+
+.game{
+    /* change back after testing */
+    display: none;
+    position: fixed;
+    border: 5px solid;
+}
+
+.table{
+    background: lightblue;
+    border-radius: 50%;
+    width: 1150px;
+    height: 550px;
+}
+
+.seat{
+    background: rgb(60, 126, 60);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    left: 50px;
+    top: 50px;
+    z-index: 1;
+}
+
+.hand{
+    display:none;
+}
+
+.center{
+    position: fixed;
+    left: 450px;
+    top: 255px;
+    width: 260px;
+    height: 130px;
+    background: rgb(48, 51, 48);
+    border: 5px solid;
+    z-index: 1;
+}
+
+.winner{
+    display: none;
+    position: fixed;
+    border: 5px solid;
+    /* background-color: lightcoral; */
+    opacity: 80%;
+}
+
+.winner p{
+    font-size: 500%;
+    font-family: 'Gill Sans';
+    color: darkred;
+    position: center;
+}
+
+#deck{
+    /* left: 100px;
+    top: 10px; */
+    float: left;
+    width: 95px;
+    height: 130px;
+    border-radius: 10px;
+}
+#playedcard{
+    float: left;
+    margin-left: 10px;
+    width: 90x;
+    height: 124px;
+    border: 3px solid white;
+    border-radius: 12px;
+}
+#playedcard img{
+    width: 80px;
+    height: 120px;
+}
+#dealcards{
+    position: fixed;
+    left: 470px;
+    top: 400px;
+}
+
+#nextturn{
+    display: none;
+}
+#unoback{
+    float: left;
+    margin-left: 10px;
+    width: 90x;
+    height: 124px;
+    border: 3px solid white;
+    border-radius: 12px;
+}
+#unoback img{
+    width: 80px;
+    height: 120px;
+}
+.playername{
+    position: relative;
+    width: 60px;
+    height: 15px;
+    top: 100px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 10px;
+}
+.currentturn{
+    border: 5px solid #33cc33;
+}
+#red{
+    color: red;
+}
+#blue{
+    color: blue;
+}
+#yellow{
+    background-color:yellow;
+    color: black;
+}
+#green{
+    color: green;
+}
+#chooser{
+    font-weight: bolder;
+    text-align: center;
+    border: 5px solid black;
+    background-color: #ffffff;
+    z-index: 5;
+    position: fixed;
+    left: 450px;
+    top: 255px;
+    width: 260px;
+    height: 130px;
+}
