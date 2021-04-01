@@ -19,7 +19,7 @@
 
 .game{
     /* change back after testing */
-    display: none;
+    display: block;
     position: fixed;
     border: 5px solid;
 }
