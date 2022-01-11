@@ -423,62 +423,8 @@ function announceWinner(turn){
 }
 
 
-
-// const e = React.createElement;
-
-//Creates like button element to show up in html
-// class playerHand extends React.Component {
-//   constructor(props) {
-//     super(props);
-//     this.state = { 
-//       hand = null
-//     };
-//   }
-//   render() {
-//     if (this.state.liked) {
-//       return 'You liked this.';
-//     }
-
-//     return e(
-//       'button',
-//       { onClick: () => this.setState({ liked: true }) },
-//       'Like'
-//     );
-//   }
-// }
-// const domContainer = document.querySelector('#like_btn');
-// ReactDOM.render(e(LikeButton), domContainer);
-
-
-
-
 //how to access cards array
 const cardvar = cards.find(c => c.color=="red" && c.type=="skip");
 console.log(cardvar.src);
-
-// const cardele = document.createElement("img");
-// cardele.setAttribute("src", cardvar.src);
-// document.getElementById("seat1").appendChild(cardele);
-
-// class Cards extends React.Component {
-
-// }
-
-// class Player extends React.Component {
-
-// }
-
-// //below adapted from https://reactjs.org/tutorial/tutorial.html
-// class Table extends React.Component {
-//     consructor(props){
-//         super(props);
-//         this.state = {
-//             players: Array(8).fill(null),
-//         };
-//     }
-//     renderPlayer(i){
-
-//     }
-// }
 
 
